@@ -1,0 +1,79 @@
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(fonts/ProximaNova-Regular.otf);
+}
+body{font-family: ProximaNova-Regular;font-size: 18px;background-color: #FAFAFA;}
+/*Nav Area Starts*/
+.navbar-default{background-color: #fff;border-color: transparent;box-shadow: 0px 0px 10px -1px #000;}
+.navbar{min-height: auto;margin-bottom: 0px;border-radius: 0px;}
+.navbar-brand{height: auto;}
+
+.navbar-right .email{display: block;font-size: 12px;margin-bottom: 10px;padding-left: 0px;}
+.navbar-right .email li{list-style-type: none;}
+.navbar-right .contact{display: block;font-size: 12px;padding-left: 30px;}
+.navbar-right .contact i{text-indent: 30px;}
+.navbar-right .contact li{list-style-type: none;list-style-position: inside;text-indent: -30px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color: #FCB61A;background-color: transparent;}
+.navbar-default .navbar-nav>li>a{font-size: 14px;color: #000;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color: #FCB61A;}
+.navbar-right .email-icon{padding: 3px;border-radius: 100%;background-color: #FCB61A;color: #fff;width: 25px;height: 25px;display: inline-block;text-align: center;}
+.navbar-right .contact-icon{padding: 4px;border-radius: 100%;background-color: #FCB61A;color: #fff;width: 25px;height: 25px;display: inline-block;text-align: center;}
+/*Nav Area Ends*/
+/*Banner Area Started*/
+.banner{background: linear-gradient(170deg, #FCB61A 60%, #fff 40%);height: 100%;padding: 25px;}
+.banner ul{display: table;width: 65%;margin: 15px auto;text-align: center;padding: 0px 0px 15px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.3);}
+.banner ul li{display: table-cell;}
+.banner .sub-text{display: block;text-align: center;width: 75%;margin: 0 auto;}
+.video-section{text-align: center;position: relative;width: 80%;margin: 0 auto;}
+.video-section img{width: 100%;}
+.border-top-left{border-right: 4px solid #000;position: absolute;top: 0%;bottom: 85%;}
+.border-bottom-right{border-left: 4px solid #000;position: absolute;top: 85%;bottom: 0;}
+.border-top{border-top: 4px solid #000;position: absolute;left: 0%;right: 90%;}
+.border-bottom{border-bottom: 4px solid #000;position: absolute;left: 90%;right: 0;bottom: 0;}
+/*Banner Area Ends*/
+/*Form Area Starts*/
+.form-section{background-color: #fff;box-shadow: 0px 1px 10px -1px #878181;border-radius: 4px 4px 0 0;padding: 0px;}
+.form-section .form-head{background-color: #F5F5F5;text-align: center;border-radius: 4px 4px 0 0;padding: 20px 0;}
+.form-section .form-head .form-heading{display: block;font-size: 30px;font-weight: 700;letter-spacing: 5px;}
+.form-section .form-head .form-sub-head{display: block;font-size: 16px;}
+.form-section .form-group{padding: 0;}
+.form-section .form-group input{width: 100%;}
+.form-section .first-name{margin-right: 30px;}
+form{padding: 30px;}
+.form-inline {overflow: hidden;margin-bottom: 15px;}
+.form-section .btn{background-color: #000; color: #fff;}
+/*Form Area Ends*/
+
+/*why-consider starts*/
+.why-consider{padding: 50px 0;}
+.why-consider .blocks-wrap{text-align: center;display : flex; flex-direction : row;}
+.why-consider h2{text-align: center;width: 40%;margin: 30px auto;font-size:28px ;font-weight: 600;}
+.why-consider .why-block{border-radius: 2px;border: 1px solid #ccc;margin: 0 20px;display: inline-block;float: none;padding: 30px 10px;  transition: 0.4s;}
+.why-consider .why-block:hover{transform: translate(0, -1px);box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);background-color: #fff;}
+.why-consider .why-block img{padding-bottom: 20px;width: auto;height: 70px;}
+.why-consider .why-block span{display: block;text-align: center;}
+/*why-consider ends*/
+
+/*curriculum starts*/
+.curriculum{padding: 50px 0;}
+.curriculum .blocks-wrap{display : flex; flex-direction : row;}
+.curriculum h2{text-align: center;width: 40%;margin: 30px auto;font-size:28px ;font-weight: 600;}
+.curriculum .why-block{border-radius: 2px;border: 1px solid #ccc;margin: 0 20px;display: inline-block;float: none;padding: 30px 20px;  transition: 0.4s;border-top: 4px solid #FCB61A;}
+.curriculum .why-block img{padding-bottom: 0px;width: auto;height: auto;padding-right: 15px;}
+.curriculum .why-block .title{display: inline-block;width: 40%;font-weight: 600;line-height: normal;}
+.curriculum .why-block .curriculum-content{display: block;margin-top: 15px;}
+.curriculum .why-block .title-img{display: inline-block;padding-right: 12px;float: left;}
+.title-wrap{overflow: hidden;padding-bottom: 15px;border-bottom: 1px solid #ddd;}
+.curriculum .why-block .curriculum-content ul{padding: 0;}
+.curriculum .why-block .curriculum-content ul li{list-style-type: none;font-size: 15px;padding-bottom: 8px;}
+.curriculum .note{display: block;font-size: 14px;color: #a4a3a3;padding: 20px;}
+.curriculum .btn{background-color: #000;width: 300px; margin: 0 auto;color: #fff;}
+/*curriculum ends*/
+@media(min-width: 1200px)
+{
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{margin-left: 0px;padding: 30px 15px;}
+	ul.navbar-nav{padding: 30px 20px;}
+	ul.navbar-right{padding: 10px 0;}
+	.navbar-right{width: 20%;}
+	.banner-text h1{text-align: center;font-size: 28px;font-weight: 600;line-height: 34px;letter-spacing: 1px;}
+}
