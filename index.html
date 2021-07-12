@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Emeritus Landing</title>
 	<meta name="description" content="" />
-    <meta name="keywords" content="" />
+  <meta name="keywords" content="" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../Landing/assets/css/reboot.css">
 	<link rel="stylesheet" type="text/css" href="../Landing/assets/css/style.css">
@@ -15,25 +15,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
-<script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-		  $('.your-class').slick({
-		  	infinite: true,
-			  slidesToShow: 2,
-			  slidesToScroll: 1,
-			  dots: true,
-			  arrows:true,
-			  prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
-    		nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
-    		adaptiveHeight: true
-		  });
-		});
 
-		
-	
-	</script>
 </head>
 <body>
 <header>
@@ -53,13 +35,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Overview</a></li>
-        <li><a href="#">Program Benefits</a></li>
-        <li><a href="#">Alumni Benefits</a></li>
-        <li><a href="#">Curriculum</a></li>
-        <li><a href="#">Faculty</a></li>
-        <li><a href="#">Participant Profiles</a></li>
-        <li><a href="#">Dates and Fees</a></li>
+        <li class="active"><a href="#overview">Overview</a></li>
+        <li><a href="#why-consider">Program Benefits</a></li>
+        <li><a href="javascript:;">Alumni Benefits</a></li>
+        <li><a href="#curriculum">Curriculum</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#participant-profile">Participant Profiles</a></li>
+        <li><a href="#module-fees">Dates and Fees</a></li>
         
       </ul>
      
@@ -83,7 +65,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 </header>
-<section class="banner">
+<section class="banner" id="overview">
 	<div class="container-fluid">
 		<div class="banner-text col-md-8">
 			<h1>CAMBRIDGE SENIOR<br/>MANAGEMENT PROGRAMME</h1>
@@ -117,7 +99,7 @@
 						  <option>Miss</option>
 						</select>
 					  </div>
-					  <div class="form-group col-md-4 col-xs-8 first-name">
+					  <div class="form-group col-md-4 col-xs-7 first-name">
 					    <input type="text" class="form-control" id="" placeholder="First Name">
 					  </div>
 					  <div class="form-group col-md-4 last-name">
@@ -152,7 +134,7 @@
 		</div>
 	</div>
 </section>
-<section class="why-consider">
+<section class="why-consider hidden-sm hidden-xs" id="why-consider">
 	<div class="container-fluid">
 		<div class="col-md-12">
 			<h2>WHY SHOULD YOU CONSIDER THIS PROGRAMME?</h2>
@@ -181,14 +163,43 @@
 		</div>
 	</div>
 </section>
-<section class="curriculum">
+<section class="why-consider visible-xs" id="why-consider">
+	<div class="container-fluid">
+		<div class="col-md-12">
+			<h2>WHY SHOULD YOU CONSIDER THIS PROGRAMME?</h2>
+			<div class="blocks-wrap why-slider">
+				<div class="why-block col-md-2">
+					<img src="../Landing/assets/images/why-img-1.png" alt="benefits-img" title="" width="" height="">
+					<span>Enhance your strategic and leadership skills to be a transformational business leader, with in-depth learning from over 26 sessions</span>
+				</div>
+				<div class="why-block col-md-2">
+					<img src="../Landing/assets/images/why-img-2.png" alt="benefits-img" title="" width="" height="">
+					<span>Learn from over 15 esteemed Cambridge Judge Business School faculty who are world renowned experts and thought leaders in their fields</span>
+				</div>
+				<div class="why-block col-md-2">
+					<img src="../Landing/assets/images/why-img-3.png" alt="benefits-img" title="" width="" height="">
+					<span>Immerse yourself in the Cambridge way, emphasising smaller class sizes, maximum interaction between faculty, participants and their peers</span>
+				</div>
+				<div class="why-block col-md-2">
+					<img src="../Landing/assets/images/why-img-4.png" alt="benefits-img" title="" width="" height="">
+					<span>Benefit from 600 years of cumulative work experience in the classroom from a diverse group of peers</span>
+				</div>
+				<div class="why-block col-md-2">
+					<img src="../Landing/assets/images/why-img-5.png" alt="benefits-img" title="" width="" height="">
+					<span>Become an associate member of Cambridge Judge Business School's global network of 9,600 alumni</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="curriculum hidden-sm hidden-xs" id="curriculum">
 	<div class="container-fluid">
 		<div class="col-md-12">
 			<h2>CURRICULUM</h2>
 			<div class="blocks-wrap">
 				<div class="why-block col-md-3">
 					<div class="title-wrap">
-					<span class="title-img"><img src="../Landing/assets/images/horse.png" alt="" title="" width="" height=""></span><span class="title">Strategy</span>
+					<span class="title-img"><img src="../Landing/assets/images/horse.png" alt="Strategy" title="" width="" height=""></span><span class="title">Strategy</span>
 					</div>
 					<div class="curriculum-content">
 						<ul>
@@ -203,7 +214,7 @@
 				</div>
 				<div class="why-block col-md-3">
 					<div class="title-wrap">
-						<span class="title-img"><img src="../Landing/assets/images/brain.png" alt="" title="" width="" height=""></span>
+						<span class="title-img"><img src="../Landing/assets/images/brain.png" alt="Digital Innovation" title="" width="" height=""></span>
 						<span class="title"> Digital Innovation</span>
 					</div>
 					<div class="curriculum-content">
@@ -219,7 +230,7 @@
 				</div>
 				<div class="why-block col-md-3">
 					<div class="title-wrap">
-						<span class="title-img"><img src="../Landing/assets/images/hierarchy.png" alt="" title="" width="" height=""></span>
+						<span class="title-img"><img src="../Landing/assets/images/hierarchy.png" alt="Organisational Transformation" title="" width="" height=""></span>
 						<span class="title"> Organisational Transformation</span>
 					</div>
 					<div class="curriculum-content">
@@ -236,7 +247,7 @@
 				</div>
 				<div class="why-block col-md-3">
 					<div class="title-wrap">
-						<span class="title-img"><img src="../Landing/assets/images/ipo.png" alt="" title="" width="" height=""></span>
+						<span class="title-img"><img src="../Landing/assets/images/ipo.png" alt="Business Analytics" title="" width="" height=""></span>
 						<span class="title"> Business Analytics</span>
 					</div>
 					<div class="curriculum-content">
@@ -256,7 +267,82 @@
 		</div>
 	</div>
 </section>
-<section class="faculty">
+<section class="curriculum visible-xs" id="curriculum">
+	<div class="container-fluid">
+		<div class="col-md-12">
+			<h2>CURRICULUM</h2>
+			<div class="blocks-wrap curriculum-slider">
+				<div class="why-block col-md-3">
+					<div class="title-wrap">
+					<span class="title-img"><img src="../Landing/assets/images/horse.png" alt="Strategy" title="" width="" height=""></span><span class="title">Strategy</span>
+					</div>
+					<div class="curriculum-content">
+						<ul>
+							<li>Strategy formulation and implementation</li>
+							<li>Leading complex, strategic projects</li>
+							<li>Operational excellence</li>
+							<li>Managing the financials</li>
+							<li>Strategic choice</li>
+							<li>Driving marketing excellence</li>
+						</ul>
+					</div>
+				</div>
+				<div class="why-block col-md-3">
+					<div class="title-wrap">
+						<span class="title-img"><img src="../Landing/assets/images/brain.png" alt="Digital Innovation" title="" width="" height=""></span>
+						<span class="title"> Digital Innovation</span>
+					</div>
+					<div class="curriculum-content">
+						<ul>
+							<li>Breakthrough digital innovations</li>
+							<li>Unleashing and enhancing innovation</li>
+							<li>Innovation in digital marketing</li>
+							<li>Artificial intelligence</li>
+							<li>Business model innovation</li>
+							<li>Cyber security</li>
+						</ul>
+					</div>
+				</div>
+				<div class="why-block col-md-3">
+					<div class="title-wrap">
+						<span class="title-img"><img src="../Landing/assets/images/hierarchy.png" alt="Organisational Transformation" title="" width="" height=""></span>
+						<span class="title"> Organisational Transformation</span>
+					</div>
+					<div class="curriculum-content">
+						<ul>
+							<li>Leading change</li>
+							<li>Managing the organisational culture</li>
+							<li>The future of the firm</li>
+							<li>Managing high-performance teams</li>
+							<li>Coaching</li>
+							<li>Networks-Influencing without formal authority</li>
+							<li>Leading negotiations</li>
+						</ul>
+					</div>
+				</div>
+				<div class="why-block col-md-3">
+					<div class="title-wrap">
+						<span class="title-img"><img src="../Landing/assets/images/ipo.png" alt="Business Analytics" title="" width="" height=""></span>
+						<span class="title"> Business Analytics</span>
+					</div>
+					<div class="curriculum-content">
+						<ul>
+							<li>Networks - Influencing without formal authority</li>
+							<li>Big Data opportunities</li>
+							<li>Predictive analytics</li>
+							<li>Descriptive analytics</li>
+							<li>Experimentation</li>
+							<li>Organisational, ethical and legal issues</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<span class="note">Note: The list of topics is not exhaustive and is subject to change.</span>
+			<button type="submit" class="btn btn-dark btn-block">Download Brochure</button>
+		</div>
+	</div>
+</section>
+<section class="faculty" id="faculty">
 		<div class="container-fluid">
 				<div class="col-md-12">
 					<h2>FACULTY</h2>
@@ -332,7 +418,7 @@
 				</div>
 		</div>
 </section>
-<section class="participant-profile">
+<section class="participant-profile" id="participant-profile">
 		<div class="container-fluid">
 			<h2>PARTICIPANT PROFILE</h2>
 					<p>Participants join us from large organisations, medium-sized companies or even from startups. The Cambridge Senior Management Programme will help senior functional or technical managers make the transition to a general management role, or support those starting new entrepreneurial ventures.</p>
@@ -375,7 +461,7 @@
 				<button type="submit" class="btn btn-dark btn-block">Download Brochure</button>
 		</div>
 </section>
-<section class="past-participant">
+<section class="past-participant" id="past-participant">
 		<div class="container-fluid">
 			<h2>PAST PARTICIPANT PROFILES</h2>
 			<p>JOB TITLES</p>
@@ -435,47 +521,169 @@
 			</div>
 		</div>
 </section>
-<section class="industry-chart">
+<section class="module-program" id="module-fees">
 	<div class="container-fluid">
-			<div class="container" style="width: 100%; height: 100%">
+			<div class="col-md-12">
+					<div class="col-md-6 col-sm-12 col-xs-12 table-responsive">
+						<h2>MODULES</h2>
+							<table class="table table-bordered">
+  								<thead>
+  										<tr>
+  											<th>Module</th>
+  											<th>Date</th>
+  											<th>Location</th>
+  										</tr>
+  								</thead>
+  								<tbody>
+  									<tr>
+  										<td>Module 1</td>
+  										<td>Nov 18–22, 2019</td>
+  										<td>New York City</td>
+  									</tr>
+  									<tr>
+  										<td>Module 2</td>
+  										<td>Dec 2019</td>
+  										<td>Online and Project Fieldwork</td>
+  									</tr>
+  									<tr>
+  										<td>Module 3</td>
+  										<td>Nov 18–22, 2019</td>
+  										<td>New York City</td>
+  									</tr>
+  									<tr>
+  										<td>Module 4</td>
+  										<td>Dec 2019</td>
+  										<td>Online and Project Fieldwork</td>
+  									</tr>
+  									<tr>
+  										<td>Module 5</td>
+  										<td>Nov 18–22, 2019</td>
+  										<td>New York City</td>
+  									</tr>
+  								</tbody>
+							</table>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12 table-responsive">
+						<h2>PROGRAM FEES</h2>
+							<table class="table table-bordered">
+  								<thead>
+  										<tr>
+  											<th>Rounds</th>
+  											<th>Application FEES</th>
+  										</tr>
+  								</thead>
+  								<tbody>
+  									<tr>
+  										<td>Round 1 – 8th Jul, 2019</td>
+  										<td>USD $300</td>
+  									</tr>
+  									<tr>
+  										<td>Round 1 – 8th Jul, 2019</td>
+  										<td>USD $300</td>
+  									</tr>
+  									<tr>
+  										<td>Round 1 – 8th Jul, 2019</td>
+  										<td>USD $300</td>
+  									</tr>
+  									<tr>
+  										<td>Round 1 – 8th Jul, 2019</td>
+  										<td>USD $300</td>
+  									</tr>
+  								</tbody>
+  								<tfoot>
+  									<tr>
+  										<th colspan="2">Program Fees : USD $36,000</th>
+  									</tr>
+  								</tfoot>
+							</table>
+					</div>
 
 			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-12">
+			<button type="submit" class="btn btn-dark btn-block">Download Brochure</button>
+		</div>
 	</div>
 </section>
 
-<script type="text/javascript">
-	anychart.onDocumentReady(function() {
+<footer>
+	<div class="container-fluid">
+			<div class="col-md-12">
+					<div class="col-md-9">
+							<p>CONNECT WITH A PROGRAMME ADVISOR FOR A ONE-ON-ONE SESSION</p>
+							<span class="footer-email"><i class="fa fa-envelope" aria-hidden="true"></i> cambridge_smp@eruditus.com</span>
+							<span class="footer-call"><i class="fa fa-phone-square" aria-hidden="true"></i> +1 (646) 713-0918 (US) / +52 55535 02404 (South America) / +971 4430 2011 (Dubai) / +65 6871 4030 (Singapore) / +91 90290 07437 (India)</span>
+					</div>
+					<div class="col-md-3">
+						<p>Programme</p>
+						<img src="../Landing/assets/images/eruditus-white-logo.png" class="img-responsive" alt="Eruditus" title="">
+					</div>
+			</div>
+	</div>
+</footer>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.your-class').slick({
+		  	infinite: true,
+			  slidesToShow: 2,
+			  slidesToScroll: 1,
+			  dots: true,
+			  arrows:true,
+			  prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+    		nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+    		adaptiveHeight: true,
+    		responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1,
+			        infinite: true,
+			        dots: true,
+			        centerMode: true
+			      }
+			    },
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			    // You can unslick at a given breakpoint now by adding:
+			    // settings: "unslick"
+			    // instead of a settings object
+			  ]
+		  });
 
-  // set the data
-  var data = [
-      {x: "White", value: 223553265},
-      {x: "Black or African American", value: 38929319},
-      {x: "American Indian and Alaska Native", value: 2932248},
-      {x: "Asian", value: 14674252},
-      {x: "Native Hawaiian and Other Pacific Islander", value: 540013},
-      {x: "Some Other Race", value: 19107368},
-      {x: "Two or More Races", value: 9009073}
-  ];
-
-  // create the chart
-  var chart = anychart.pie();
-
-  // set the chart title
-  chart.title("Population by Race for the United States: 2010 Census");
-
-  // add the data
-  chart.data(data);
-  
-  // set legend position
-  chart.legend().position("right");
-  // set items layout
-  chart.legend().itemsLayout("vertical");  
-
-  // display the chart in the container
-  chart.container('container');
-  chart.draw();
-
-});
-</script>
+		  $('.why-slider').slick({
+		  	infinite: true,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  dots: true,
+			  arrows:true,
+			  prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+    		nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+    		adaptiveHeight: true,
+		  });
+		  $('.curriculum-slider').slick({
+		  	infinite: true,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  dots: true,
+			  arrows:true,
+			  prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+    		nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+    		adaptiveHeight: true,
+		  });
+		});
+	</script>
 </body>
 </html>
